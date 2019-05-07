@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 header {
   display: block;
   margin: 0 auto;
@@ -6,19 +10,20 @@ header {
 }
 
 header h1 {
-  font-family: Arial;
+  font-family: 'Acme', sans-serif;
   font-size: 60px;
   font-weight: bold;
-  margin: 0 auto;
+  margin: 32px auto 16px auto;
 }
 
 header #new_game_button {
   display: block;
   margin: 0 auto; /* 这里原来是 0px */
-  width: 100px;
-  padding: 10px 10px;
+  width: 200px;
+  padding: 16px 16px;
   background-color: #8f7a66;
-  font-family: Arial;
+  font-family: 'Acme', sans-serif;
+  font-size: 24px;
   color: white;
   border-radius: 10px;
   text-decoration: none;
@@ -29,9 +34,9 @@ header #new_game_button:hover {
 }
 
 header p {
-  font-family: Arial;
-  font-size: 25px;
-  margin: 5px auto;
+  font-family: 'Acme', sans-serif;
+  font-size: 24px;
+  margin: 10px auto;
 }
 
 #grid_container {
@@ -54,7 +59,7 @@ header p {
 
 .number_cell {
   border-radius: 6px;
-  font-family: Arial;
+  font-family: 'Acme', sans-serif;
   font-weight: bold;
   font-size: 60px;
   line-height: 100px;
