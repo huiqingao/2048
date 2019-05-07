@@ -373,3 +373,5 @@ function is_gameover() {
 function gameover() {
     update_score(gameover_string);
 }
+
+//加一行注释
