@@ -6,7 +6,7 @@ var starty = 0; //移动端触摸屏幕时开始点的y坐标
 var endx = 0;   //移动端触摸屏幕时结束点的x坐标
 var endy = 0;   //移动端触摸屏幕时结束点的y坐标
 var success_string = 'Success';
-var gameover_string = 'GameOver';
+var gameover_string = 'Uh-oh!';
 
 //HTML文档加载完成后，初始化棋局
 $(document).ready(function() {

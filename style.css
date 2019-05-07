@@ -4,29 +4,31 @@ body {
 
 header {
   display: block;
-  margin: 0 auto;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 header h1 {
   font-family: 'Acme', sans-serif;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: bold;
-  margin: 32px auto 16px auto;
+  margin: 26px 0 -13px auto;
 }
 
 header #new_game_button {
   display: block;
-  margin: 0 auto; /* 这里原来是 0px */
+  margin: 0 0; /* 这里原来是 0px */
   width: 200px;
-  padding: 16px 16px;
+  height: 148px;
+  padding: auto auto;
   background-color: #8f7a66;
   font-family: 'Acme', sans-serif;
-  font-size: 24px;
+  font-size: 36px;
   color: white;
   border-radius: 10px;
   text-decoration: none;
+  text-align: center;
+  line-height: 148px;
 }
 
 header #new_game_button:hover {
@@ -47,6 +49,45 @@ header p {
   background-color: #bbada0;
   border-radius: 10px;
   position: relative;
+}
+
+#score {
+  color: red;
+}
+
+.kanban {
+  width: 500px;
+  height: 160px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nbrs {
+  float: left;
+  height: 80px;
+
+}
+
+.another_game {
+  float: right;
+  height: 80px;
+}
+
+.game_name {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.game_board {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 100%;
+  align-items: flex-start;
 }
 
 .grid_cell {
