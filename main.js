@@ -11,7 +11,7 @@ var gameover_string = 'GameOver';
 //HTML文档加载完成后，初始化棋局
 $(document).ready(function(){
     //做自适应处理
-    prepare_formobile();
+    prepare_for_mobile();
     new_game();
 });
 
@@ -71,6 +71,59 @@ function update_board_view() {
       has_conflicted[i][j] = false;
     }
   }
+  $('.number_cell').css('line-height', cell_side_length + 'px');
+  $('.number_cell').css('font-size', 0.6 * cell_side_length + 'px');
+}
+
+//随机在一个格子生成数字
+function generate_one_number() {
+  if (nospace(board)) {
+    return false;
+  }
+  //随机一个位置
+  var randx = parseInt(Math.floor(Math.random() * 4));
+  var randy = parseInt(Math.floor(Math.random() * 4));
+  var time = 0;
+  while (time < 50) {
+    if (board[randx][randy] == 0) {
+      break;
+    }
+    randx = parseInt(Math.floor(Math.random() * 4));
+    randy = parseInt(Math.floor(Math.random() * 4));
+    time++;
+  }
+  if (time == 50) {
+    for (var i = 0; i < 4; i++) {
+      for (var j = 0; j < 4; j++) {
+        if (board[i][j] == 0) {
+          randx = i;
+          randy = j;
+        }
+      }
+    }
+  }
+  //随机一个数字
+  var rand_number = Math.random() < 0.5 ? 2 : 4;
+  //在随机位置显示随机数字
+  board[randx][randy] = rand_number;
+  show_number_with_animation(randx, randy, rand_number);
+  return true;
+}
+
+//自适应处理
+function prepare_for_mobile() {
+  if (document_width > 500) {
+    grid_container_width = 500;
+    cell_side_length = 100;
+    cell_space = 20;
+  }
+  $('#grid_container').css('width', grid_container_width - 2 * cell_space);
+  $('#grid_container').css('height', grid_container_width - 2 * cell_space);
+  $('#grid_container').css('padding', cell_space);
+  $('#grid_container').css('border-radius', 0.02 * grid_container_width);
+  $('.grid_cell').css('width', cell_side_length);
+  $('.grid_cell').css('height', cell_side_length);
+  $('.grid_cell').css('border-radius', 0.02 * grid_container_width);
 }
 
 
