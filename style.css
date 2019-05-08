@@ -63,7 +63,6 @@ footer {
 footer p {
   font-family: 'Acme', sans-serif;
   margin: 0 auto;
-  color: #3B4859;
 }
 
 .guidance p {
@@ -74,8 +73,7 @@ footer p {
 
 .copyright p {
   text-align: center;
-  opacity: 0.35;
-  font-weight: lighter;
+  color: #C5CFD1;
 }
 
 #grid_container {
