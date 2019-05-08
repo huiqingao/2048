@@ -20,7 +20,8 @@ header #new_game_button {
   display: block;
   margin: 0 0; /* 这里原来是 0px */
   width: 200px;
-  height: 128px;
+  height: 108px;
+  line-height: 108px;
   padding: auto auto;
   /* background-color: #FF8A5B; 橙色背景 */
   background-color: #ffffff;
@@ -31,7 +32,6 @@ header #new_game_button {
   border-radius: 16px;
   text-decoration: none;
   text-align: center;
-  line-height: 128px;
 }
 
 header #new_game_button:hover {
@@ -55,7 +55,7 @@ header p {
   width: 460px;
   height: 460px;
   padding: 20px;
-  margin: 0 auto; /* 原来是 0px */
+  margin: 32px auto 0 auto; /* 原来是 0px */
   background-color: #D7F6F6;
   border-radius: 10px;
   position: relative;
@@ -74,7 +74,7 @@ header p {
 .kanban {
   width: 500px;
   height: 160px;
-  padding: 20px;
+  padding: 0;
   margin: 0 auto;
   position: relative;
 }
@@ -87,6 +87,7 @@ header p {
 
 .another_game {
   float: right;
+  padding-top: 20px;
   height: 80px;
   width: 40%;
 }
