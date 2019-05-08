@@ -36,7 +36,7 @@ function get_number_background_color(number) {
 //获得相应数字的颜色
 function get_number_color(number) {
     if (number <= 8)
-        return '#776e65';
+        return '#4C6E7F';
     return 'white';
 }
 
