@@ -72,6 +72,12 @@ footer p {
   color: #25CED1;
 }
 
+.copyright p {
+  text-align: center;
+  opacity: 0.35;
+  font-weight: lighter;
+}
+
 #grid_container {
   width: 460px;
   height: 460px;
@@ -129,11 +135,6 @@ footer p {
   align-items: flex-start;
 }
 
-.guidance {
-  margin-top: 20px;
-  padding: 50px auto 20px auto;
-}
-
 .grid_cell {
   width: 100px;
   height: 100px;
@@ -152,7 +153,15 @@ footer p {
   position: absolute;
 }
 
+.guidance {
+  margin-top: 20px;
+  padding: 50px auto 20px auto;
+}
 
+.copyright {
+  margin-top: 20px;
+  padding: 10px auto 0 auto;
+}
 
 
 
