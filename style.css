@@ -47,8 +47,21 @@ header p {
   color: #3B4859;
 }
 
+footer {
+  display: block;
+  width: 100%;
+}
+
+footer p {
+  font-family: 'Acme', sans-serif;
+  font-size: 32px;
+  margin: 0 auto;
+  color: #3B4859;
+}
+
 .guidance p {
   font-size: 18px;
+  text-align: center;
 }
 
 #grid_container {
@@ -109,8 +122,8 @@ header p {
 }
 
 .guidance {
-  float: left;
-  padding-top: 20px;
+  margin-top: 20px;
+  padding: 50px auto 20px auto;
 }
 
 .grid_cell {
