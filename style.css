@@ -12,6 +12,7 @@ header h1 {
   font-family: 'Acme', sans-serif;
   font-size: 48px;
   font-weight: bold;
+  color: #3B4859;
   margin: 26px 0 -13px auto;
 }
 
@@ -25,7 +26,7 @@ header #new_game_button {
   font-family: 'Acme', sans-serif;
   font-size: 36px;
   color: white;
-  border-radius: 10px;
+  border-radius: 16px;
   text-decoration: none;
   text-align: center;
   line-height: 148px;
@@ -37,8 +38,13 @@ header #new_game_button:hover {
 
 header p {
   font-family: 'Acme', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   margin: 0 auto;
+  color: #3B4859;
+}
+
+.guidance p {
+  font-size: 18px;
 }
 
 #grid_container {
@@ -56,7 +62,7 @@ header p {
 }
 
 #arrow_key {
-  border: 2px solid #ccc;
+  border: 2px solid #D8DEE5;
   border-radius: 4px;
   padding: 0 2px;
 }
@@ -90,7 +96,7 @@ header p {
 }
 
 .game_board {
-  padding-top: 46px;
+  padding-top: 44px;
   margin: 0;
   float: right;
   width: 50%;
