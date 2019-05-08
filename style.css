@@ -55,6 +55,12 @@ header p {
   color: red;
 }
 
+#arrow_key {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
 .kanban {
   width: 500px;
   height: 160px;
@@ -89,6 +95,11 @@ header p {
   float: right;
   width: 50%;
   align-items: flex-start;
+}
+
+.guidance {
+  float: left;
+  padding-top: 20px;
 }
 
 .grid_cell {
