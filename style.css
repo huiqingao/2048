@@ -38,7 +38,7 @@ header #new_game_button:hover {
 header p {
   font-family: 'Acme', sans-serif;
   font-size: 24px;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 #grid_container {
@@ -66,27 +66,28 @@ header p {
 .nbrs {
   float: left;
   height: 80px;
-
+  width: 60%;
 }
 
 .another_game {
   float: right;
   height: 80px;
+  width: 40%;
 }
 
 .game_name {
   padding: 0;
   margin: 0;
   float: left;
-  width: 100%;
+  width: 50%;
   align-items: flex-start;
 }
 
 .game_board {
-  padding: 0;
+  padding-top: 46px;
   margin: 0;
-  float: left;
-  width: 100%;
+  float: right;
+  width: 50%;
   align-items: flex-start;
 }
 
