@@ -76,7 +76,7 @@ footer p {
   width: 460px;
   height: 460px;
   padding: 20px;
-  margin: 32px auto 0 auto; /* 原来是 0px */
+  margin: 20px auto 0 auto; /* 原来是 0px */
   background-color: #D7F6F6;
   border-radius: 10px;
   position: relative;
