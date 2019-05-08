@@ -22,7 +22,7 @@ header #new_game_button {
   width: 200px;
   height: 148px;
   padding: auto auto;
-  background-color: #8f7a66;
+  background-color: #FF8A5B;
   font-family: 'Acme', sans-serif;
   font-size: 36px;
   color: white;
@@ -33,7 +33,8 @@ header #new_game_button {
 }
 
 header #new_game_button:hover {
-  background-color: #9f8b77;
+  color: #FF8A5B;
+  background-color: #FCEADE;
 }
 
 header p {
