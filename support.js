@@ -17,18 +17,18 @@ function get_pos_left(i, j) {
 function get_number_background_color(number) {
     switch (number) {
         case 2: return '#FFFFFF'; break;
-        case 4: return '#FCEDE4'; break;
-        case 8: return '#FFC69B'; break;
+        case 4: return '#FFF9E4'; break;
+        case 8: return '#FEDDAD'; break;
         case 16: return '#FFA987'; break;
         case 32: return '#FF8A5B'; break;
-        case 64: return '#ED7189'; break;
+        case 64: return '#ED7171'; break;
         case 128: return '#EA526F'; break;
-        case 256: return '#AB3C51'; break;
-        case 512: return '#802D3D'; break;
-        case 1024: return '#561E29'; break;
-        case 2048: return '#2B0F15'; break;
-        case 4096: return '#16080B'; break;
-        case 8192: return '#000000'; break;
+        case 256: return '#B7304A'; break;
+        case 512: return '#860147'; break;
+        case 1024: return '#561E51'; break;
+        case 2048: return '#2E0939'; break;
+        case 4096: return '#060A35'; break;
+        case 8192: return '#5C3315'; break;
     }
     return 'black';
 }
