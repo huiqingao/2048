@@ -109,15 +109,15 @@ footer p {
   padding: 0;
   margin: 0;
   float: left;
-  width: 50%;
+  width: 100%;
   align-items: flex-start;
 }
 
 .game_board {
   padding-top: 44px;
   margin: 0;
-  float: right;
-  width: 50%;
+  float: left;
+  width: 100%;
   align-items: flex-start;
 }
 
