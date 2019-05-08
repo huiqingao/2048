@@ -62,14 +62,14 @@ footer {
 
 footer p {
   font-family: 'Acme', sans-serif;
-  font-size: 32px;
   margin: 0 auto;
   color: #3B4859;
 }
 
 .guidance p {
-  font-size: 18px;
+  font-size: 32px;
   text-align: center;
+  color: #25CED1;
 }
 
 #grid_container {
@@ -87,7 +87,7 @@ footer p {
 }
 
 #arrow_key {
-  border: 2px solid #D8DEE5;
+  border: 2px solid #D3F5F5;
   border-radius: 4px;
   padding: 0 2px;
 }
