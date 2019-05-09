@@ -70,10 +70,10 @@ function update_board_view() {
                   number_cell.css('font-size', 0.6 * cell_side_length + 'px');
                 }
                 else if (board[i][j] < 1024) {
-                  number_cell.css('font-size', 0.4 * cell_side_length + 'px');
+                  number_cell.css('font-size', 0.55 * cell_side_length + 'px');
                 }
                 else {
-                  number_cell.css('font-size', 0.3 * cell_side_length + 'px');
+                  number_cell.css('font-size', 0.42 * cell_side_length + 'px');
                 }
             }
             has_conflicted[i][j] = false;
