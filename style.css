@@ -4,6 +4,10 @@ body {
   font-weight: bold;
 }
 
+#cool_game {
+  display: flex;
+}
+
 #grid_container {
   display: inline-block;
   width: 460px;
