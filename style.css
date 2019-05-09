@@ -7,7 +7,7 @@ body {
 /* 把页面横向划分为左中右三个并排的部分 */
 #cool_game {
   display: flex;
-  margin-top: 10px;
+  margin-top: 32px;
 }
 
 /* 左边 */
@@ -18,13 +18,16 @@ body {
 }
 
 #left h1 {
-  font-size: 88px;
+  font-size: 96px;
   color: #25CED1;
+  padding-left: 92px;
+  margin: 0 0 60px 0;
 }
 
 #left p {
   font-size: 32px;
   color: #25CED1;
+  padding-left: 92px;
 }
 
 #arrow_key {
@@ -70,8 +73,9 @@ body {
 }
 
 #right p {
-  margin-top: 159px;
+  margin-top: 18px;
   font-size: 32px;
+  color: #25CED1;
 }
 
 #score {
@@ -80,7 +84,7 @@ body {
 
 #new_game_button {
   display: block;
-  margin-top: 60px;
+  margin-top: 200px;
   width: 90%;
   height: 220px;
   line-height: 220px;
@@ -99,4 +103,19 @@ body {
   background-color: #FF8A5B;
   box-shadow: 2px 2px 7px 0 rgba(230,228,228,0.50);
   font-size: 48px;
+}
+
+/* Copyright */
+.copyright {
+  margin-top: 40px;
+}
+
+.copyright p {
+  text-align: center;
+  color: #C5CFD1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
