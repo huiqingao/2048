@@ -66,12 +66,21 @@ function update_board_view() {
                 number_cell.css('background-color', get_number_background_color(board[i][j]));
                 number_cell.css('color', get_number_color(board[i][j]));
                 number_cell.text(board[i][j]);
+                if (board[i][j] < 128) {
+                  number_cell.css('font-size', 0.6 * cell_side_length + 'px');
+                }
+                else if (board[i][j] < 1024) {
+                  number_cell.css('font-size', 0.4 * cell_side_length + 'px');
+                }
+                else {
+                  number_cell.css('font-size', 0.3 * cell_side_length + 'px');
+                }
             }
             has_conflicted[i][j] = false;
         }
     }
     $('.number_cell').css('line-height', cell_side_length + 'px');
-    $('.number_cell').css('font-size', 0.6 * cell_side_length + 'px');
+    //$('.number_cell').css('font-size', 0.6 * cell_side_length + 'px');
 }
 
 //随机在一个格子生成数字
