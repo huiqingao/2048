@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'baibianmading';
+  src: url('baibianmading.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: white;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Acme', "baibianmading", sans-serif;
   font-weight: bold;
 }
 
@@ -28,6 +35,7 @@ body {
   font-size: 32px;
   color: #25CED1;
   padding-left: 92px;
+  font-weight: 300;
 }
 
 #arrow_key {
@@ -76,6 +84,7 @@ body {
   margin-top: 18px;
   font-size: 32px;
   color: #25CED1;
+  font-weight: 300;
 }
 
 #score {
@@ -92,7 +101,8 @@ body {
   background-color: #ffffff;
   color: #FF8A5B;
   box-shadow: 2px 2px 7px 0 rgba(230,228,228,0.50);
-  font-size: 36px;
+  font-size: 42px;
+  font-weight: 400;
   border-radius: 16px;
   text-decoration: none;
   text-align: center;
