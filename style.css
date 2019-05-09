@@ -8,6 +8,12 @@ body {
   display: flex;
 }
 
+#left {
+  width: 400px;
+  float: left;
+  background-color: #FFF9E4;
+}
+
 #grid_container {
   display: inline-block;
   width: 460px;
@@ -17,7 +23,13 @@ body {
   background-color: #D3F7FF;
   border-radius: 10px;
   position: relative;
+}
 
+#right {
+  width: 400px;
+  float: right;
+  text-align: right;
+  background-color: #FFF9E4;
 }
 
 .grid_cell {
