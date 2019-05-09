@@ -111,7 +111,9 @@ function generate_one_number() {
         }
     }
     //随机一个数字
-    var rand_number = Math.random() < 0.5 ? 2 : 4;
+    //以下一行代码：随机生成2或者4
+    //var rand_number = Math.random() < 0.5 ? 2 : 4;
+    var rand_number = 2;
     //在随机位置显示随机数字
     board[randx][randy] = rand_number;
     show_number_with_animation(randx, randy, rand_number);
