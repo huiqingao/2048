@@ -1,87 +1,15 @@
 body {
   background-color: white;
-}
-
-header {
-  display: block;
-  width: 100%;
-  text-align: left;
-  padding-top: 10px;
-}
-
-header h1 {
   font-family: 'Acme', sans-serif;
-  font-size: 48px;
   font-weight: bold;
-  color: #25CED1;
-  margin: 0 0 -13px auto;
 }
 
-.game_name h1 {
-  font-family: 'Acme', sans-serif;
-  font-size: 72px;
-  font-weight: bold;
-  color: #25CED1;
-}
-
-header #new_game_button {
-  display: block;
-  margin: 0 0; /* 这里原来是 0px */
-  width: 200px;
-  height: 108px;
-  line-height: 108px;
-  padding: auto auto;
-  /* background-color: #FF8A5B; 橙色背景 */
-  background-color: #ffffff;
-  color: #FF8A5B;
-  border: 4px solid #FF8A5B;
-  font-family: 'Acme', sans-serif;
-  font-size: 36px;
-  border-radius: 16px;
-  text-decoration: none;
-  text-align: center;
-}
-
-header #new_game_button:hover {
-  color: #ffffff;
-  background-color: #FF8A5B;
-  border: 4px solid #FF8A5B;
-}
-
-header p {
-  font-family: 'Acme', sans-serif;
-  font-size: 28px;
-  margin: 0 auto;
-  color: #3B4859;
-}
-
-footer {
-  display: block;
-  width: 100%;
-}
-
-footer p {
-  font-family: 'Acme', sans-serif;
-  margin: 0 auto;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.guidance p {
-  font-size: 32px;
-  text-align: center;
-  color: #25CED1;
-}
-
-.copyright p {
-  text-align: center;
-  color: #C5CFD1;
+#cool_game {
+  display: flex;
 }
 
 #grid_container {
+  display: inline-block;
   width: 460px;
   height: 460px;
   padding: 0;
@@ -89,53 +17,7 @@ a {
   background-color: #D3F7FF;
   border-radius: 10px;
   position: relative;
-}
 
-#score {
-  color: #FF8A5B;
-}
-
-#arrow_key {
-  border: 2.5px solid #DEFAEF;
-  border-radius: 4px;
-  padding: 0 2px;
-}
-
-.kanban {
-  width: 500px;
-  height: 138px;
-  padding: 0;
-  margin: 0 auto;
-  position: relative;
-}
-
-.nbrs {
-  float: left;
-  height: 80px;
-  width: 60%;
-}
-
-.another_game {
-  float: right;
-  padding-top: 0;
-  height: 80px;
-  width: 40%;
-}
-
-.game_name {
-  padding: 0;
-  margin: 0;
-  float: left;
-  width: 100%;
-  align-items: flex-start;
-}
-
-.game_board {
-  padding-top: 2px;
-  margin: 0;
-  float: left;
-  width: 100%;
-  align-items: flex-start;
 }
 
 .grid_cell {
@@ -148,53 +30,9 @@ a {
 
 .number_cell {
   border-radius: 6px;
-  font-family: 'Acme', sans-serif;
   font-weight: bold;
   font-size: 60px;
   line-height: 100px;
   text-align: center;
   position: absolute;
 }
-
-.guidance {
-  margin-top: 20px;
-  padding: 50px auto 20px auto;
-}
-
-.copyright {
-  margin-top: 28px;
-  padding: 10px auto 0 auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 留出来的空白 */
