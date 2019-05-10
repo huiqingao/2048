@@ -14,30 +14,30 @@ body {
 #left {
   width: 400px;
   float: left;
-  padding-left: 92px;
   /* background-color: #FFF9E4; */
 }
 
 #left h1 {
+  padding-left: 92px;
   font-size: 96px;
   color: #25CED1;
   margin: 0 0 60px 0;
 }
 
 #left p {
+  padding-left: 92px;
   font-size: 32px;
   color: #25CED1;
 
 }
 
-#arrow_key {
-  border: 2.5px solid #DEFAEF;
-  border-radius: 4px;
-  padding: 0 2px;
+#left img {
+  padding-left: 92px;
 }
 
 /* Copyright */
 #left .copyright p {
+  padding-left: 92px;
   margin-top: 68px;
   text-align: left;
   color: #C5CFD1;
