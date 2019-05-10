@@ -12,51 +12,41 @@
     <script type="text/javascript" src="support.js"></script>
   </head>
   <body>
-    <header>
-      <div class="kanban">
-        <div class="nbrs">
-          <div class="game_name">
-            <h1>2048</h1>
-          </div>
-          <div class="game_board">
-            <p>Score: <span id="score">0</span></p>
-          </div>
-        </div>
-        <div class="another_game">
-          <a href="javascript:new_game();" id="new_game_button">New Game</a>
-        </div>
+    <div id="cool_game">
+      <div id="left">
+        <h1>2048</h1>
+        <p>Play with<br> <span id="arrow_key">&#8592;</span> <span id="arrow_key">&nbsp;&#8593;&nbsp;</span> <span id="arrow_key">&#8594;</span> <span id="arrow_key">&nbsp;&#8595;&nbsp;</span> keys</p>
       </div>
-    </header>
-    <div id="grid_container">
-      <div class="grid_cell" id="grid_cell_0_0"></div>
-      <div class="grid_cell" id="grid_cell_0_1"></div>
-      <div class="grid_cell" id="grid_cell_0_2"></div>
-      <div class="grid_cell" id="grid_cell_0_3"></div>
+      <div id="grid_container">
+        <div class="grid_cell" id="grid_cell_0_0"></div>
+        <div class="grid_cell" id="grid_cell_0_1"></div>
+        <div class="grid_cell" id="grid_cell_0_2"></div>
+        <div class="grid_cell" id="grid_cell_0_3"></div>
 
-      <div class="grid_cell" id="grid_cell_1_0"></div>
-      <div class="grid_cell" id="grid_cell_1_1"></div>
-      <div class="grid_cell" id="grid_cell_1_2"></div>
-      <div class="grid_cell" id="grid_cell_1_3"></div>
+        <div class="grid_cell" id="grid_cell_1_0"></div>
+        <div class="grid_cell" id="grid_cell_1_1"></div>
+        <div class="grid_cell" id="grid_cell_1_2"></div>
+        <div class="grid_cell" id="grid_cell_1_3"></div>
 
-      <div class="grid_cell" id="grid_cell_2_0"></div>
-      <div class="grid_cell" id="grid_cell_2_1"></div>
-      <div class="grid_cell" id="grid_cell_2_2"></div>
-      <div class="grid_cell" id="grid_cell_2_3"></div>
+        <div class="grid_cell" id="grid_cell_2_0"></div>
+        <div class="grid_cell" id="grid_cell_2_1"></div>
+        <div class="grid_cell" id="grid_cell_2_2"></div>
+        <div class="grid_cell" id="grid_cell_2_3"></div>
 
-      <div class="grid_cell" id="grid_cell_3_0"></div>
-      <div class="grid_cell" id="grid_cell_3_1"></div>
-      <div class="grid_cell" id="grid_cell_3_2"></div>
-      <div class="grid_cell" id="grid_cell_3_3"></div>
+        <div class="grid_cell" id="grid_cell_3_0"></div>
+        <div class="grid_cell" id="grid_cell_3_1"></div>
+        <div class="grid_cell" id="grid_cell_3_2"></div>
+        <div class="grid_cell" id="grid_cell_3_3"></div>
+      </div>
+      <div id="right">
+        <p>Score: <span id="score">0</span></p>
+        <a href="javascript:new_game();" id="new_game_button">New Game</a>
+      </div>
     </div>
     <footer>
-      <div class="guidance">
-        <p>Play with <span id="arrow_key">&#8592;</span> <span id="arrow_key">&nbsp;&#8593;&nbsp;</span> <span id="arrow_key">&#8594;</span> <span id="arrow_key">&nbsp;&#8595;&nbsp;</span> keys</p>
-      </div>
       <div class="copyright">
         <p>&copy; Huiqin Gao 2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.huiqin.design" target="_blank">www.huiqin.design</a></p>
       </div>
     </footer>
-
-
   </body>
 </html>
