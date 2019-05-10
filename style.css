@@ -14,20 +14,20 @@ body {
 #left {
   width: 400px;
   float: left;
+  padding-left: 92px;
   /* background-color: #FFF9E4; */
 }
 
 #left h1 {
   font-size: 96px;
   color: #25CED1;
-  padding-left: 92px;
   margin: 0 0 60px 0;
 }
 
 #left p {
   font-size: 32px;
   color: #25CED1;
-  padding-left: 92px;
+
 }
 
 #arrow_key {
