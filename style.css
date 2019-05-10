@@ -92,7 +92,7 @@ a {
 }
 
 #score {
-  color: #FF8A5B;
+  color: #ED7171;
 }
 
 #new_game_button {
@@ -103,7 +103,7 @@ a {
   line-height: 220px;
   padding: auto auto;
   background-color: #ffffff;
-  color: #FF8A5B;
+  color: #25CED1;
   box-shadow: 2px 2px 7px 0 rgba(230,228,228,0.50);
   font-size: 36px;
   border-radius: 16px;
@@ -115,7 +115,7 @@ a {
 
 #new_game_button:hover {
   color: #ffffff;
-  background-color: #FF8A5B;
+  background-color: #25CED1;
   box-shadow: 2px 16px 36px 0 rgba(134,134,134,0.50);
   font-size: 48px;
   transition: all 0.1s
